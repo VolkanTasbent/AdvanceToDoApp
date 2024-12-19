@@ -1,0 +1,28 @@
+name: advanced_todo_app
+description: A Flutter application for managing tasks with different categories.
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  flutter_local_notifications: ^18.0.1
+  intl: ^0.20.1
+  sqflite: ^2.2.7
+  uuid: ^3.0.7
+  path: ^1.9.0
+  shared_preferences: ^2.3.4
+  convert: ^3.1.2
+  date_format: ^2.0.9
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
